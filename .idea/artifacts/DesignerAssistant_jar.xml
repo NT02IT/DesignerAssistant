@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DesignerAssistant:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DesignerAssistant_jar</output-path>
+    <root id="archive" name="DesignerAssistant.jar">
+      <element id="module-output" name="DesignerAssistant" />
+    </root>
+  </artifact>
+</component>
