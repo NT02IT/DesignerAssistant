@@ -38,4 +38,4 @@ build/
 .DS_Store
 
 ### Evironment ###
-src/main/resources/.env
+!**/src/main/resources/.env
