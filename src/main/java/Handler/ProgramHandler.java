@@ -17,7 +17,6 @@ public class ProgramHandler {
         Properties properties = new Properties();
         try (InputStream input = ProgramHandler.class.getClassLoader().getResourceAsStream("softwares.properties")) {
             if (input == null) {
-                System.out.println("null nè");
                 System.err.println(STATUS.NO_SOFTWARE_NOW);
                 System.exit(0);
             }
@@ -42,11 +41,14 @@ public class ProgramHandler {
                 try {
                     Runtime.getRuntime().exec(ds.getURL());
                     System.out.println(STATUS.OPEN_SUCCESS);
+                    System.exit(0);
                 } catch (IOException e) {
                     CommandExceptionHanlder e2 = new CommandExceptionHanlder(STATUS.OPEN_ERROR);
                     System.err.println(e2.getMessage());
+                    System.exit(0);
                 }
             }
         }
+        System.err.println(STATUS.OPEN_ERROR);
     }
 }

@@ -3,7 +3,7 @@
 - **Cấu hình Java Runtime Env:**
   - `Window+S` gõ `env` chọn _"Edit System Environment Variables"_
   - Chọn _"Environment Variables"_
-  - Tìm đến Variable `path` click chọn và thêm giá trị _"C:\Program Files\Java\jdk-21\bin"_ (Đường dẫn đến thư mục bin của Java 21)
+  - Tìm đến Variable `PATH` click chọn và thêm giá trị _"C:\Program Files\Java\jdk-21\bin"_ (Đường dẫn đến thư mục bin của Java 21)
   - Đưa giá trị vừa thêm lên cao nhất sau đó lưu lại
   - Kiểm tra xem Window đã cập nhật Java Environment Runtime chưa bằng cách vào cmd gõ `java -version`
 

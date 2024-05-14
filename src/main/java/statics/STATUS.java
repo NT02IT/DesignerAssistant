@@ -21,7 +21,10 @@ public class STATUS {
             "--latest : Hành động với tệp vừa chỉnh sửa";
     public static final String URL_INVALID = "URL_INVALID\n" +
             "designer chỉ làm việc với https://github.com/ và https://drive.google.com/";
-    public static final String OPEN_SUCCESS = "OPEN_SUCCESS";
-    public static final String OPEN_ERROR = "OPEN_ERROR";
-    public static final String NO_SOFTWARE_NOW = "NO_SOFTWARE_NOW";
+    public static final String OPEN_SUCCESS = "OPEN_SUCCESS\n" +
+            "Đã mở phần mềm thành công";
+    public static final String OPEN_ERROR = "OPEN_ERROR\n" +
+            "Không thể mở phần mềm bạn yêu cầu";
+    public static final String NO_SOFTWARE_NOW = "NO_SOFTWARE_NOW\n" +
+            "Bạn chưa thêm các phần mềm vào file softwares.properties";
 }
