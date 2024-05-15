@@ -1,0 +1,41 @@
+{
+    "graphic": [
+        {
+            "name": "folder1",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "test.txt",
+                    "type": "file"
+                },
+                {
+                    "name": "subfolder1",
+                    "type": "directory",
+                    "children": [
+                        {
+                            "name": "test2.txt",
+                            "type": "file"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "folder2",
+            "type": "directory",
+            "children": []
+        }
+    ],
+    "uiux": [
+        {
+            "name": "folder3",
+            "type": "directory",
+            "children": [
+                {
+                    "name": "design.sketch",
+                    "type": "file"
+                }
+            ]
+        }
+    ]
+}

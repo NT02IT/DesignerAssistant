@@ -56,6 +56,11 @@ public class Controller {
         // Xu ly dieu huong
         String result = StaticHandler.find(action, ACTIONS.class);
         if (result != null) {
+            // Action init
+            if (result.equals(ACTIONS.init.toString())) {
+                WorkspaceController workspaceController = new WorkspaceController();
+            }
+
             // Action open
             if (result.equals(ACTIONS.open.toString())) {
                 ProgramController programController = new ProgramController();
