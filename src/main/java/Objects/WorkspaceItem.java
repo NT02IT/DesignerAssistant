@@ -7,8 +7,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class File {
-    private String fileName;
+@NoArgsConstructor
+public class WorkspaceItem {
+    private String name;
+    private String type;
+    private WorkspaceItem[] children;
 }
