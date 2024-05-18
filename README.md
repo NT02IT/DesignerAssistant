@@ -9,6 +9,7 @@
 
 ## Chạy chương trình
 - Thêm đường dẫn thư mục chứa file _designer.bat_ vào `PATH` (Như cấu hình Java Runtime Env)
+- Tạo cấu trúc thư mục của các dự án tại file _workspace-templates_
 - Thêm đường dẫn các phần mềm thiết kế tại file resources _design_software.properties_ để sử dụng `designer open`
 - Chạy chương trình bằng cách `designer parameters`
 

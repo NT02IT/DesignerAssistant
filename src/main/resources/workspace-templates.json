@@ -1,0 +1,121 @@
+{
+    "inhouse": [
+        {   "name": "Overview", "type": "directory", "children": []},
+        {
+            "name": "Plan", "type": "directory",
+            "children": [
+                {"name": "Meeting_Agenda_ddmm.pptx", "type": "file"},
+                {"name": "Meeting_Recap_ddmm.docx", "type": "file"},
+                {"name": "Project_Plan.xlsx", "type": "file"}
+            ]
+        },
+        {
+            "name": "Brand", "type": "directory",
+            "children": [
+                {
+                    "name": "Working", "type": "directory",
+                    "children": [
+                        {"name": "Logos", "type": "directory", "children": []},
+                        {"name": "Identity", "type": "directory", "children": []},
+                        {"name": "Illustrators", "type": "directory", "children": []}
+                    ]
+                },
+                {   "name": "Brand_Guideline", "type": "directory", "children": []},
+                {
+                    "name": "Resources", "type": "directory",
+                    "children": [
+                        {   "name": "Icons", "type": "directory",
+                            "children": [
+                                {   "name": "icon-pack", "type": "directory",
+                                    "children": [
+                                        {"name": "Design", "type": "directory", "children": []},
+                                        {"name": "Flatten", "type": "directory", "children": []},
+                                        {"name": "Font-icons", "type": "directory", "children": []},
+                                        {"name": "License", "type": "directory", "children": []}
+                                    ]
+                                }
+                            ]
+                        },
+                        {   "name": "Fonts", "type": "directory","children": [] },
+                        {   "name": "Images", "type": "directory","children": [] }
+                    ]
+                },
+                {
+                    "name": "Public", "type": "directory",
+                    "children": [
+                        {"name": "Logos", "type": "directory", "children": []},
+                        {"name": "Brand_Guideline.pdf", "type": "file"},
+                        {"name": "Illustrators", "type": "directory", "children": []},
+                        {"name": "Icons", "type": "directory", "children": [
+                            {   "name": "icon-pack", "type": "directory",
+                                "children": [
+                                    {"name": "SVG", "type": "directory", "children": []},
+                                    {"name": "Font-icons", "type": "directory", "children": []},
+                                    {"name": "License", "type": "directory", "children": []}
+                                ]
+                            }
+                        ]},
+                        {"name": "Fonts", "type": "directory", "children": []}
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Git_Repo", "type": "directory",
+            "children": [
+                {"name": "Fonts", "type": "directory", "children": []},
+                {"name": "Icons", "type": "directory", "children": [
+                    {   "name": "icon-pack", "type": "directory",
+                        "children": [
+                            {"name": "SVG", "type": "directory", "children": []},
+                            {"name": "Font-icons", "type": "directory", "children": []},
+                            {"name": "License", "type": "directory", "children": []}
+                        ]
+                    }
+                ]},
+                {"name": "Figma_Variables", "type": "directory", "children": []},
+                {"name": "Adobe", "type": "directory", "children": [
+                    {"name": "Settings", "type": "directory", "children": []},
+                    {"name": "Color_Swatches", "type": "directory", "children": []},
+                    {"name": "Color_Presets", "type": "directory", "children": []},
+                    {"name": "Brushes", "type": "directory", "children": []},
+                    {"name": "Effects", "type": "directory", "children": []}
+                ]}
+            ]
+        },
+        {   "name": "Showcase", "type": "directory", "children": []}
+    ],
+    "preview": [
+        {   "name": "Project_Name", "type": "directory", "children": [
+            {   "name": "DDMM", "type": "directory", "children": [
+                {   "name": "Design", "type": "directory", "children": []},
+                {   "name": "Prototype", "type": "directory", "children": []}
+            ]}
+        ]}
+    ],
+    "collection": [
+        {   "name": "Collection", "type": "directory", "children": [
+            {   "name": "Typography", "type": "directory", "children": []},
+            {   "name": "Color", "type": "directory", "children": []},
+            {   "name": "Layout", "type": "directory", "children": []},
+            {   "name": "Animation", "type": "directory", "children": []}
+        ]}
+    ],
+    "uiux": [
+        {   "name": "Overview", "type": "directory", "children": []},
+        {   "name": "Icons", "type": "directory",
+            "children": [
+                {   "name": "icon-pack", "type": "directory",
+                    "children": [
+                        {"name": "SVG", "type": "directory", "children": []},
+                        {"name": "Font-icons", "type": "directory", "children": []},
+                        {"name": "License", "type": "directory", "children": []}
+                    ]
+                }
+            ]
+        },
+        {   "name": "Fonts", "type": "directory","children": [] },
+        {   "name": "Images", "type": "directory","children": [] },
+        {   "name": "Variables", "type": "directory", "children": []}
+    ]
+}

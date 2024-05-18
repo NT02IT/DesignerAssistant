@@ -1,14 +1,10 @@
 package Controller;
 
 import Handler.CommandExceptionHanlder;
-import Handler.MarkdownFileHandler;
 import Handler.StaticHandler;
-import Objects.MarkdownFile;
 import statics.ACTIONS;
 import statics.STATUS;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.Arrays;
 
 public class Controller {
@@ -56,6 +52,28 @@ public class Controller {
         // Xu ly dieu huong
         String result = StaticHandler.find(action, ACTIONS.class);
         if (result != null) {
+            // Action init
+            if (result.equals(ACTIONS.init.toString())) {
+                WorkspaceController workspaceController = new WorkspaceController();
+
+                // Kiểm tra có tên workspace không
+                if(parameters != null && parameters.length > 0){
+                    // Kiểm tra xem có đính kèm URL đích không
+                    boolean flag = true;
+                    try{
+                        if (parameters[1] != null && !parameters[1].isEmpty()) {
+                            workspaceController.init(parameters[0], parameters[1]);
+                            flag = false;
+                        }
+                    } catch(Exception e){}
+                    if (flag) {
+                        workspaceController.init(parameters[0]);
+                    }
+                } else {
+                    workspaceController.init();
+                }
+            }
+
             // Action open
             if (result.equals(ACTIONS.open.toString())) {
                 ProgramController programController = new ProgramController();
@@ -64,7 +82,7 @@ public class Controller {
                 if(parameters != null && parameters.length > 0){
                     programController.open(parameters[0]);
                 } else {
-                    System.err.println(STATUS.OPEN_ERROR + "\nTên phần mềm không được để trống");
+                    System.err.println(STATUS.OPEN_ERROR);
                 }
             }
         } else { // Không có action thích hợp
