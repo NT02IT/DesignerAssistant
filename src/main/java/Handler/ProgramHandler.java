@@ -39,7 +39,9 @@ public class ProgramHandler {
         for (DesignSoftware ds : designSoftwares) {
             if (ds.getName().equals(programName)) {
                 try {
-                    Runtime.getRuntime().exec(ds.getURL());
+                    for (String app : ds.getURLs()){
+                        Runtime.getRuntime().exec(app);
+                    }
                     System.out.println(STATUS.OPEN_SUCCESS);
                     System.exit(0);
                 } catch (IOException e) {

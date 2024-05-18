@@ -35,4 +35,6 @@ public class STATUS {
             "Không tìm thấy Workspace";
     public static final String CREATE_SUCCESS = "CREATE_SUCCESS\n" +
             "Tạo thành công";
+    public static final String PROPERTIES_NOT_FOUND = "PROPERTIES_NOT_FOUND\n" +
+            "Không tìm thấy tên tệp .properties";
 }

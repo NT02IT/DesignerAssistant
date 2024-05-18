@@ -8,12 +8,15 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-@AllArgsConstructor
 public class DesignSoftware {
     private String name;
-    private String URL;
+    private String[] URLs;
 
     public DesignSoftware(String name) {
         this.name = name;
+    }
+    public DesignSoftware(String name, String URLstr) {
+        this.name = name;
+        this.URLs = URLstr.split("; ");
     }
 }
