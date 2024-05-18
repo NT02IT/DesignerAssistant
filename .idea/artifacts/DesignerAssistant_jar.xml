@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="DesignerAssistant:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/DesignerAssistant_jar</output-path>
+    <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="DesignerAssistant.jar">
       <element id="module-output" name="DesignerAssistant" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-jdbc/3.2.5/spring-boot-starter-jdbc-3.2.5.jar" path-in-jar="/" />

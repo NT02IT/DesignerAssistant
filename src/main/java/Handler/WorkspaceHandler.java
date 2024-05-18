@@ -3,7 +3,7 @@ package Handler;
 import Objects.WorkspaceItem;
 import Objects.Workspace;
 import com.google.gson.*;
-import statics.STATUS;
+import Statics.STATUS;
 
 import java.io.*;
 import java.nio.file.Files;

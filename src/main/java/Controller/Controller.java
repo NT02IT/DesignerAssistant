@@ -2,8 +2,8 @@ package Controller;
 
 import Handler.CommandExceptionHanlder;
 import Handler.StaticHandler;
-import statics.ACTIONS;
-import statics.STATUS;
+import Statics.ACTIONS;
+import Statics.STATUS;
 
 import java.util.Arrays;
 

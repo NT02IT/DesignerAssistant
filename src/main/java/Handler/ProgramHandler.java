@@ -1,7 +1,7 @@
 package Handler;
 
 import Objects.DesignSoftware;
-import statics.STATUS;
+import Statics.STATUS;
 
 import java.io.IOException;
 import java.io.InputStream;
