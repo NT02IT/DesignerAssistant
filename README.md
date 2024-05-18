@@ -9,6 +9,7 @@
 
 ## Chạy chương trình
 - Thêm đường dẫn thư mục chứa file _designer.bat_ vào `PATH` (Như cấu hình Java Runtime Env)
+- Thêm thư mục `alias` vào `PATH` để có thể gọi tên các Alias và chạy.
 - Tạo cấu trúc thư mục của các dự án tại file _workspace-templates_
 - Thêm đường dẫn các phần mềm thiết kế tại file resources _design_software.properties_ để sử dụng `designer open`
 - Thêm các thông tin config như GEMINI_API, tài khoản Google Drive vào file designer.bat
@@ -19,3 +20,7 @@
 
 ## Tips sử dụng hiệu quả
 - Sử dụng chung với PowerToys Run bằng cách vào mục Shell tick chọn _"Include in global result"_ và _"Keep shell open"_
+- Sử dụng với các tên khác nhau: 
+  - Vào folder `alias`, copy 1 file bất kì đang có và paste
+  - Sử tên thành tên alias bạn muốn
+  - Từ bây giờ bạn đã có thể gõ trên cmd tên alias này hoặc tên đầy đủ là designer chương trình vẫn chạy bình thường
