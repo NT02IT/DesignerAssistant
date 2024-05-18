@@ -48,15 +48,15 @@ public class WorkspaceHandler {
 
     public void init(){
         System.out.println("LOOSING WORKSPACES\n" +
-                "Chọn 1 trong các Workspace sau để bắt đầu:\n");
+                "Chọn 1 trong các Workspace sau để bắt đầu:");
         for (Workspace workspace : workspaces) {
-            System.out.println("designer init " + workspace.getName());
+            System.out.println(workspace.getName());
         }
         System.out.println("-------------------------------\n" +
                 "designer init workspace : Tạo workspace ở thư mục hiện tại\n" +
                 "designer init workspace url : Tạo workspace tại thư mục với đường dẫn url\n" +
                 "designer init workspace --from url : Copy cấu trúc thư mục từ url đến thư mục đang đứng hiện tại\n" +
-                "designer init workspace --from url --to url : Copy cấu trúc thư mục từ url đến thư mục cung cấp\n");
+                "designer init workspace --from url --to url : Copy cấu trúc thư mục từ url đến thư mục cung cấp");
     }
 
     public void init(String workspaceName) {
