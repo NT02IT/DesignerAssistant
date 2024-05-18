@@ -11,7 +11,11 @@
 - Thêm đường dẫn thư mục chứa file _designer.bat_ vào `PATH` (Như cấu hình Java Runtime Env)
 - Tạo cấu trúc thư mục của các dự án tại file _workspace-templates_
 - Thêm đường dẫn các phần mềm thiết kế tại file resources _design_software.properties_ để sử dụng `designer open`
-- Chạy chương trình bằng cách `designer parameters`
+- Thêm các thông tin config như GEMINI_API, tài khoản Google Drive vào file designer.bat
+- Rebuild chương trình để cập nhật các thông tin bạn vừa setup bên trên:
+  - Di chuyển đến thư mục dự án
+  - Gõ `cmd` trên thanh địa chỉ của File Explorer
+  - Gõ lệnh sau `mvn clean install` để rebuild chương trình
 
 ## Tips sử dụng hiệu quả
 - Sử dụng chung với PowerToys Run bằng cách vào mục Shell tick chọn _"Include in global result"_ và _"Keep shell open"_
